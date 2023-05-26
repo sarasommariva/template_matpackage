@@ -1,0 +1,9 @@
+# Sphinx documentation
+docs/_build
+docs/generated/
+
+# Distribution / packaging
+*.egg-info/
+
+# Virtual environment
+venv_webpage
