@@ -29,7 +29,7 @@ author = 'Sara Sommariva'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinxcontrib.matlab', 'sphinx.ext.autodoc',
-	      'sphinx.ext.autosummary']
+	      'sphinx.ext.autosummary', 'sphinx.ext.autosectionlabel']
 primary_domain = 'mat'
 matlab_src_dir = op.dirname(op.abspath('.'))
 
@@ -53,7 +53,7 @@ html_theme_options = {
     'navbar_pagenav': False,
     'globaltoc_includehidden': False,
     'navbar_links': [
-        #("Examples", "auto_examples/index"),
+        ("Examples", "index_exs"),
         ("API", "api"),
         #("Model", "explanation_algorithm"),
         #("GitHub", "https://github.com/pybees/sesameeg", True)
